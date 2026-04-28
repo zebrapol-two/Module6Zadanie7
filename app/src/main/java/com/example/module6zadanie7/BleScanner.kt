@@ -57,7 +57,7 @@ class BleScanner(
             .setScanMode(ScanSettings.SCAN_MODE_LOW_LATENCY)
             .build()
 
-        scanner.startScan(null, scanSettings, scanCallback)  // ← null вместо фильтра
+        scanner.startScan(null, scanSettings, scanCallback)
         isScanning = true
 
         awaitClose {
