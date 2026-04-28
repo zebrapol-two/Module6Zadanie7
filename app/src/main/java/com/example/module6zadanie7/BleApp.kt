@@ -244,7 +244,7 @@ fun HeartRateCard(heartRate: HeartRateData, connectionState: BleConnectionState)
                     if (heartRate.isDeviceContactDetected) {
                         Spacer(modifier = Modifier.height(8.dp))
                         Text(
-                            text = "✓ Device contact detected",
+                            text = "Device contact detected",
                             fontSize = 12.sp,
                             color = Color.Green
                         )
